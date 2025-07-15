@@ -1,0 +1,12 @@
+﻿mck
+mck.exe
+dist/
+*.test
+*.out
+coverage.html
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+.mck.yaml
