@@ -1,0 +1,35 @@
+# mck configuration file
+# Place this at ~/.mck.yaml or specify with --config flag
+
+# Default output format: table, json, yaml
+default_output: table
+
+# Provider-specific configuration
+providers:
+  aws:
+    profile: default
+    regions:
+      - us-east-1
+      - us-west-2
+      - eu-west-1
+
+  gcp:
+    projects:
+      - my-gcp-project-id
+    # zones: [] # Leave empty to scan all zones
+
+  azure:
+    subscription_ids:
+      - "00000000-0000-0000-0000-000000000000"
+    # resource_groups: [] # Leave empty to scan all RGs
+
+  oci:
+    compartments:
+      - "ocid1.compartment.oc1..example"
+    profile: DEFAULT
+
+# Cluster aliases — friendly names for quick access
+aliases:
+  prod: "aws:us-east-1:prod-cluster"
+  staging: "azure:centralindia:staging-aks"
+  dev: "gcp:us-central1:dev-gke"
