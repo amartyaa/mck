@@ -9,6 +9,7 @@ import (
 	"github.com/amartyaa/mck/pkg/provider"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
+	"github.com/spf13/viper"
 )
 
 var (
