@@ -3,7 +3,7 @@ module github.com/amartyaa/mck
 go 1.25.0
 
 require (
-	cloud.google.com/go/billing v1.21.0
+	cloud.google.com/go/billing v1.24.0
 	cloud.google.com/go/container v1.49.0
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.13.1
 	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/containerservice/armcontainerservice/v6 v6.6.0
