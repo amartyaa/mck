@@ -11,7 +11,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/costexplorer v1.63.7
 	github.com/aws/aws-sdk-go-v2/service/eks v1.46.2
 	github.com/fatih/color v1.17.0
-	github.com/oracle/oci-go-sdk/v65 v65.112.0
+	github.com/oracle/oci-go-sdk/v65 v65.113.0
 	github.com/spf13/cobra v1.10.2
 	github.com/spf13/viper v1.21.0
 	google.golang.org/api v0.276.0
